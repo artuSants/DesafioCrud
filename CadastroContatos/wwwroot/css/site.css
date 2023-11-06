@@ -1,0 +1,73 @@
+
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.meio{
+    margin-top: 70px;
+}
+
+.field-validation-error {
+    color:#e02626;
+}
+
+.close-alert {
+    position: absolute;
+    right: -10px;
+    top: -15px;
+    border-radius: 15px;
+    width: 30px;
+    height:31px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --c1: #F5BC60;
+    --c2: #8f837141;
+    --c3: rgb(153, 119, 68);
+    --c4: #5C554A;
+    --c5: #050505;
+}
+
+ion-icon {
+    font-size: 30px;
+}
+.c-title h1 {
+    color: var(--c1);
+    font-size: 5rem;
+}
+
+.c-title p {
+    color: #fff;
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
+.c-title a {
+    margin-top: 1rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+.c-title a:hover {
+    letter-spacing: 2px;
+    color: #fff;
+    transition: 0.3s all;
+}
+footer {
+    background-color: var(--c2);
+    color: white;
+}
