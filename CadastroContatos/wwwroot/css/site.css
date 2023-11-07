@@ -15,10 +15,6 @@ html {
   min-height: 100%;
 }
 
-.meio{
-    margin-top: 70px;
-}
-
 .field-validation-error {
     color:#e02626;
 }
@@ -43,7 +39,7 @@ html {
 }
 
 ion-icon {
-    font-size: 30px;
+    font-size: 20px;
 }
 .c-title h1 {
     color: var(--c1);
@@ -67,7 +63,6 @@ ion-icon {
     color: #fff;
     transition: 0.3s all;
 }
-footer {
-    background-color: var(--c2);
-    color: white;
+.container2{
+    padding:50px;
 }

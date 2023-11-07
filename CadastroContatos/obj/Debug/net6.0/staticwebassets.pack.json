@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\VisualStudio 2022\\Repos\\DesafioCrud\\CadastroContatos\\wwwroot\\img\\bg.png",
+      "PackagePath": "staticwebassets\\img\\bg.png"
+    },
+    {
       "Id": "D:\\VisualStudio 2022\\Repos\\DesafioCrud\\CadastroContatos\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

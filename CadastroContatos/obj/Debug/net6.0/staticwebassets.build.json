@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+KGjnws5eZIHxzfZkrHjVC3eHw4Hh8hhtPGigG2eHXU=",
+  "Hash": "MbZfDRrz6MwJ4jqFJFYXfOE8aJ9KhUOYvX4iTJ2Knrs=",
   "Source": "CadastroContatos",
   "BasePath": "_content/CadastroContatos",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\VisualStudio 2022\\Repos\\DesafioCrud\\CadastroContatos\\wwwroot\\img\\bg.png",
+      "SourceId": "CadastroContatos",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VisualStudio 2022\\Repos\\DesafioCrud\\CadastroContatos\\wwwroot\\",
+      "BasePath": "_content/CadastroContatos",
+      "RelativePath": "img/bg.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\bg.png"
     },
     {
       "Identity": "D:\\VisualStudio 2022\\Repos\\DesafioCrud\\CadastroContatos\\wwwroot\\js\\site.js",

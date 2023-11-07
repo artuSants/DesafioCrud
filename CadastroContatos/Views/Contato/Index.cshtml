@@ -6,7 +6,6 @@
     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
         <a role="button" class="btn btn-primary rounded" asp-controller="Contato" asp-action="Criar"><ion-icon name="add-outline"></ion-icon></a>
     </div>
-    <br />
     @if (TempData["MensagemSucesso"] != null)
     {
         <div class="alert alert-success" role="alert">
@@ -22,10 +21,9 @@
             @TempData["MensagemErro"]
         </div>
     }
-    <br />
     <h1 class="display-4">Registros</h1>
-
-    <table class="table">
+    <br />
+    <table class="table" id="table-contatos">
         <thead>
             <tr>
                 <th scope="col"></th>
@@ -47,8 +45,8 @@
                         <td>@contato.Celular</td>
                         <td>
                             <div class="btn-group" role="group" aria-label="Basic example">
-                                <a role="button" class="btn btn-primary" asp-route-id="@contato.Id" asp-controller="Contato" asp-action="Editar">Editar</a>
-                                <a role="button" class="btn btn-danger" asp-route-id="@contato.Id" asp-controller="Contato" asp-action="ApagarConfirmacao">Apagar</a>
+                                <a role="button" class="btn btn-primary" asp-route-id="@contato.Id" asp-controller="Contato" asp-action="Editar"><ion-icon name="create-outline"></ion-icon></a>
+                                <a role="button" class="btn btn-danger" asp-route-id="@contato.Id" asp-controller="Contato" asp-action="ApagarConfirmacao"><ion-icon name="trash-outline"></ion-icon></a>
                             </div>
                         </td>
                     </tr>
@@ -57,4 +55,5 @@
         </tbody>
     </table>
 </div>
+<div class="container2"></div>
 
